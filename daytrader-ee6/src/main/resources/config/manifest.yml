@@ -1,0 +1,10 @@
+applications:
+- name: daytrader-ee6
+  memory: 512M
+  disk_quota: 1024M
+  instances: 1
+  host: bmx-daytrader-ee6
+  domain: mybluemix.net
+  env: 
+    DAYTRADER3_CONTEXT_ROOT_URL: "https://bmx-daytrader-ee6.mybluemix.net/daytrader"
+    
